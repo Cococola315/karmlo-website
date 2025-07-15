@@ -1,0 +1,19 @@
+body{
+    background-color: blanchedalmond;
+}
+.header-button{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-style: none;
+    background-color: white;
+    font-weight: bold;
+    vertical-align: top;
+}
+.header-button:hover{
+    background-color: aqua;
+}
+.header-logo {
+    display:inline-block
+    
+}
