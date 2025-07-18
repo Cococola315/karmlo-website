@@ -1,19 +1,35 @@
 body{
-    background-color: blanchedalmond;
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+    border:none
 }
-.header-button{
-    cursor: pointer;
-    width: 100px;
-    height: 50px;
+
+.header{
+    background-color: #ffffff;
     border-style: none;
-    background-color: white;
-    font-weight: bold;
-    vertical-align: top;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-.header-button:hover{
-    background-color: aqua;
-}
+
 .header-logo {
+    margin-left: 75px;
     display:inline-block
-    
+}
+
+.nav-bar {
+    text-align: right;
+    margin-left: 200px;
+    vertical-align: super;
+    display:inline-block
+}
+
+.page-link{
+    cursor: pointer;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.page-link:hover{
+    text-decoration: underline;    
 }
