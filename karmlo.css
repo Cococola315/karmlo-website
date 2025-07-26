@@ -5,42 +5,15 @@ body{
     border:none
 }
 
-.header{
-    background-color: #ffffff;
-    border-style: none;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
 
-.header-logo {
-    margin-left: 75px;
-    display:inline-block
-}
-
-.nav-bar {
-    font-size: 0px;
-    margin-left: 200px;
-    vertical-align:super;
-    display:inline-block
-}
-
-.page-link{
-    font-size: 16px;
-    vertical-align: middle;
-    cursor: pointer;
-    margin-left: 12px;
-    margin-right: 12px;
-    padding-bottom: 5px;
-    display: inline-block;
-    
-}
-
-.page-link:hover{
-    text-decoration: underline;    
-}
 
 .home-text{
     margin-left: 75px;
     margin-top: 100px;
     color: #e5e5e5;
+}
+
+.footer{
+    background-color: #acacac;
+    padding-bottom: 50px;
 }
