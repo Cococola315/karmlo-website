@@ -5,7 +5,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 200px;
-    padding-left: 150px;
+    padding-left: 120px;
 
     display: flex;
     flex-direction: row;
@@ -13,17 +13,19 @@
     align-items: center;
 }
 .logo{
-    background-color: lightcoral;
     margin-right: 20px;
+    color: black;
 }
 
 .nav-bar {
+    display: flex;
+    flex-direction: row;
     margin-left: 20px;
     font-size: 0px;
-    background-color: lightblue;
 }
 
 .nav-link{
+    text-decoration: none;
     font-size: 16px;
     width: 100px;
     color: black;
@@ -31,7 +33,7 @@
     margin-left: 12px;
     margin-right: 12px;
     border: black;
-    border-style: dotted;
+    transition: .3s;
 }
 
 .nav-link:hover{
