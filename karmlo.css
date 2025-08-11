@@ -1,11 +1,13 @@
 .content-section-1{
     display: flex;
     margin-top: 0px;
+    justify-content: center;
 }
 .content-section-2{
     display: flex;
-    margin-top: 50px;
+    margin-top: 0px;
     text-align: center;
+    justify-content: center;
 }
 
 .text-block{
@@ -70,35 +72,8 @@
     opacity: 0.8;
 }
 
-.footer{
-    display: flex;
-    background-color: #3e3e3e;
-    padding-bottom: 50px;
-    padding-left: 120px;
-    padding-top: 30px;
-    justify-content: space-evenly;
-    vertical-align: center;
-}
-
-.search-bar{
-    height: 40px;
-    background-color: transparent;
-    border-color: white;
-    border-style: solid;
-}
-.search-bar:hover{
-    opacity: 0.8;
-}
-
-.footer-section-1{
-    flex: 1;
-    color: white;
-}
-.footer-section-2{
-    flex: 2;
-    color: white;
-}
-
-.footer-heading{
-    margin-bottom: 0;
+/* About Us style */
+.portrait{
+    width: 300px;
+    border-radius: 300px;
 }
