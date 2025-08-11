@@ -4,7 +4,7 @@
     border-style: none;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-right: 200px;
+    padding-right: 120px;
     padding-left: 120px;
 
     display: flex;
@@ -12,26 +12,23 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .logo{
-    margin-right: 20px;
-    color: black;
+    margin-right: 100px;
+    width: auto;
+    height: 90%
+}
+.logo:hover{
+    cursor: pointer;
 }
 
-.nav-bar {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    font-size: 0px;
-}
 
 .nav-link{
     text-decoration: none;
     font-size: 16px;
-    width: 100px;
     color: black;
     cursor: pointer;
-    margin-left: 12px;
-    margin-right: 12px;
+   
     border: black;
     transition: .3s;
 }
