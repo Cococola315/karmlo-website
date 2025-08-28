@@ -14,7 +14,6 @@
 }
 
 .logo{
-    margin-right: 100px;
     width: auto;
     height: 90%
 }
@@ -22,6 +21,12 @@
     cursor: pointer;
 }
 
+.nav-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    column-gap: 70px;
+}
 
 .nav-link{
     text-decoration: none;
