@@ -109,8 +109,9 @@
 /* About Us style */
 .portrait{
     width: 300px;
+    height: 300px;
     border-radius: 300px;
-    
+    object-fit: cover;
 }
 
 .xp-list{
@@ -161,3 +162,4 @@
 .submit-button:hover{
     opacity: 0.8;
 }
+
